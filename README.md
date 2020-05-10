@@ -29,11 +29,11 @@ Tapped-C resonant matching network calculator
       
       *************************** Tapped-C resonant matching network *************************** |
       | Initial data: |
-      | Center frequency (fc): 98.00 MHz
-      | Bandwidth (B): 20.00 MHz
-      | Serial resistance (Rs): 50.00 Ω
-      | Load resistance (Rl): 1.50 kΩ
-      | Inductor Q at 98.00 MHz (Qp): 75 |
+      | Center frequency (fc):        98.00 MHz
+      | Bandwidth (B):                20.00 MHz
+      | Source resistance (Rs):       50.00 Ω
+      | Load resistance (Rl)           1.50 kΩ
+      | Inductor Q at 98.00 MHz (Qp): 75 
       |
       | The Tapped-C transformer’s characteristic equations are the following:
       |
