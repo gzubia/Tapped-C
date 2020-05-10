@@ -19,8 +19,8 @@ fprintf('\n*************************** Tapped-C resonant matching network ******
 [B_p,  B_u]  = units(B);  % Hz
 [Rs_p, Rs_u] = units(Rs); % Ω
 [Rl_p, Rl_u] = units(Rl); % Ω
-fprintf('|\n|\tInitial data:\n|\n|\t\tCenter frequency (fc): %12.2f %cHz\n|\t\tBandwidth (B): %20.2f %cHz\n|\t\tSerial resistance (Rs): %11.2f %cΩ\n|\t\tLoad   resistance (Rl): %11.2f %cΩ\n|\t\tInductor Q at %4.2f %cHz (Qp): %d\n|',fc_p,fc_u,B_p,B_u,Rs_p,Rs_u,Rl_p,Rl_u,fc_p,fc_u,Qp);
-fprintf(fid,'|\n|\tInitial data:\n|\n|\t\tCenter frequency (fc): %12.2f %cHz\n|\t\tBandwidth (B): %20.2f %cHz\n|\t\tSerial resistance (Rs): %11.2f %cΩ\n|\t\tLoad   resistance (Rl): %11.2f %cΩ\n|\t\tInductor Q at %4.2f %cHz (Qp): %d\n|',fc_p,fc_u,B_p,B_u,Rs_p,Rs_u,Rl_p,Rl_u,fc_p,fc_u,Qp);
+fprintf('|\n|\tInitial data:\n|\n|\t\tCenter frequency (fc): %12.2f %cHz\n|\t\tBandwidth (B): %20.2f %cHz\n|\t\tSource resistance (Rs): %11.2f %cΩ\n|\t\tLoad   resistance (Rl): %11.2f %cΩ\n|\t\tInductor Q at %4.2f %cHz (Qp): %d\n|',fc_p,fc_u,B_p,B_u,Rs_p,Rs_u,Rl_p,Rl_u,fc_p,fc_u,Qp);
+fprintf(fid,'|\n|\tInitial data:\n|\n|\t\tCenter frequency (fc): %12.2f %cHz\n|\t\tBandwidth (B): %20.2f %cHz\n|\t\tSource resistance (Rs): %11.2f %cΩ\n|\t\tLoad   resistance (Rl): %11.2f %cΩ\n|\t\tInductor Q at %4.2f %cHz (Qp): %d\n|',fc_p,fc_u,B_p,B_u,Rs_p,Rs_u,Rl_p,Rl_u,fc_p,fc_u,Qp);
 %% Calculate the baseline
 %%% We know that,
 %%%                 Rs' = Rs (1+C1/C2)^2 (1)
