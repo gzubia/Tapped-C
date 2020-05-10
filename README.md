@@ -1,4 +1,3 @@
-
 # Tapped-C transformer
 -----------------------
 Introduction:
