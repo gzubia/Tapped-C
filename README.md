@@ -1,3 +1,9 @@
+
+# Tapped-C transformer
+-----------------------
+Introduction:
+----------------
+
 This code returns the tapped_c matching network's elements' values: 
 --> Q: the required loaded Q of the resonant circuit 
 --> Xp: either the inductive or capacitive reactance. They are equal at resonance 
